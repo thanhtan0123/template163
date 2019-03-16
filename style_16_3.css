@@ -3,6 +3,257 @@
     padding: 0px;
 }
 body{
-    width: 1200px;
+    width: 1000px;
     margin: auto;
+}
+header{
+    height: 135px;
+    border-bottom: 1px solid #e2e2e2;
+}
+.com{
+    float: left;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+.com>h2{
+    text-transform: uppercase;
+}
+.com>p{
+    margin-top: 10px;
+}
+.menu{
+    float:right;
+  
+}
+.menu>ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    /* border: 1px solid black; */
+    margin-right: 20px;
+    background: red;
+    text-transform: uppercase;
+    margin-top: 40px;
+    padding: 20px 15px 20px 15px;
+    border-radius: 15px;
+}
+.menu>ul>li>a{
+    text-decoration: none;
+    color: white;
+    margin-right: 35px;
+    
+    font-size: 16px;
+}
+.menu>ul>li>a:hover{
+    color: aqua;
+}
+.menu>li{
+    
+}
+.lor{
+    margin-top: 45px;
+}
+.lor>p{
+    font-size: 22px;
+    font-weight: inherit;
+}
+.lor1, .lor2{
+    text-align: center;
+}
+.hinh{
+    
+    display: flex;
+    justify-content: center;
+}
+.hinh>img{
+    height: 350px;
+    width: 960px;
+    margin-top: 45px;
+    margin-bottom: 80px;
+}
+.parent>hr{
+    height: 2px;
+    background-color: black; 
+}
+.ser1{
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    margin-left: 431px;
+}
+.ser1>h2{
+    border: 1px solid black;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: -15px;
+    background: red;
+    color: white;
+}
+.ser2a,.ser2b,.ser2c{
+    float: 1;
+}
+.ser2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.ser2a>div>a{
+    text-decoration: none;
+}
+.ser2b>div>a{
+    text-decoration: none;
+}
+.ser2c>div>a{
+    text-decoration: none;
+}
+.ser2aa{
+    display: flex;
+    flex-direction: row;
+}
+.ser2b{
+    margin-left: 40px;
+    margin-right:40px;
+}
+.ser2aa>p{
+    font-weight: bold;
+    font-size: 18px;
+    margin-left: 20px;
+}
+.ser2bb>p{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left:5px;
+    color: #979797;
+}
+.ser2cc>a{
+    color: red;
+}
+.ser2{
+    margin-top: 50px;
+}
+.our1{
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    margin-left: 431px;
+}
+.ser>hr{
+    height: 2px;
+    background-color: black; 
+    margin-top:45px;
+}
+.our1>h2{
+    border: 1px solid black;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: -15px;
+    background: red;
+    color: white;
+}
+.our2{
+    display: flex;
+    flex-direction: row;
+}
+.our2aa>img{
+    width: 175px;
+    height: 175px;
+}
+.our2aa{
+    margin-top: 40px;
+    margin-left: 14px;
+    margin-right: 10px;
+    line-height: 22px;
+}
+.our2aa>a{
+    text-decoration: none;
+    color: red;
+    margin-top: 15px !important;
+}
+.our2aa>p>span{
+    color: #979797;
+}
+.lat1>h2{
+    border: 1px solid black;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: -15px;
+    background: red;
+    color: white;
+}
+.lat>hr{
+    margin-top: 60px;
+}
+.lat1{
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    margin-left: 431px;
+}
+.lat2{
+    display: flex;
+    flex-direction: row;
+    margin-top: 45px;
+    justify-content: center;
+}
+.lat2aa>img{
+    margin-right:25px;
+    width: 300px;
+    height: 160px;
+}
+.lat2a>img{
+    margin-left: 15px;
+    margin-right: 26px;
+    width: 300px;
+    height: 160px;
+}
+.lateaa{
+    display: flex;
+    flex-direction: column;
+}
+.lateaaa, .latebbb{
+    display: flex;
+    flex-direction: row;
+}
+.late{
+    height: 360px;
+    background: #e2e2e2;
+    padding-left: 20px;
+    
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+}
+.late111>img{
+    width: 95px;
+    height:95px;
+}
+.latep{
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+.chu{
+    margin-left: 20px;
+}
+.lateaaa{
+    margin-bottom: 20px;
+}
+.chu1{
+    color: red;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.chu2{
+    color: #979797;
+}
+.lateb{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+.lateb1{
+    margin-top: 40px;
+    margin-bottom: 25px;
 }
