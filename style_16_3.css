@@ -5,6 +5,7 @@
 body{
     width: 1000px;
     margin: auto;
+    font-family: Georgia;
 }
 header{
     height: 135px;
@@ -55,7 +56,7 @@ header{
 }
 .lor>p{
     font-size: 22px;
-    font-weight: inherit;
+    font-style: oblique;
 }
 .lor1, .lor2{
     text-align: center;
@@ -218,10 +219,10 @@ header{
     flex-direction: row;
 }
 .late{
-    height: 360px;
+    height: 355px;
     background: #e2e2e2;
-    padding-left: 20px;
-    
+    padding-left: 10px;
+    padding-top: 40px;
     margin-top: 50px;
     display: flex;
     flex-direction: row;
@@ -235,7 +236,8 @@ header{
     margin-bottom: 25px;
 }
 .chu{
-    margin-left: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 .lateaaa{
     margin-bottom: 20px;
@@ -247,13 +249,66 @@ header{
 }
 .chu2{
     color: #979797;
+    line-height: 20px;
 }
 .lateb{
     display: flex;
     flex-direction: column;
-    margin-left: 30px;
+    margin-right: 10px;
+}
+.latebb{
+    margin-top:10px;
 }
 .lateb1{
-    margin-top: 40px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.lateb2, .lateb3, .lateb4{
+    color: #999999;
+    line-height: 20px;
     margin-bottom: 25px;
+}
+.lateb3>span{
+    color: red;
+}
+.lateb4>span{
+    color: #786262;
+}
+.latec{
+    display: flex;
+    flex-direction: column;
+    margin-right: 5px;
+    margin-left: 6px;
+}
+.latec>p{
+    margin-top: 10px;
+    font-size: 20px;
+    margin-bottom: 24px;
+}
+.name, .email{
+    width: 225px;
+    height: 30px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    padding-left: 10px;
+    border: none;
+    border-radius: 7px;
+}
+.message{
+    width: 225px;
+    height: 110px;
+    font-size: 15px;
+    border: none;
+    border-radius: 7px;
+    padding-left: 10px;
+}
+.submit{
+    width: 80px;
+    height: 30px;
+    margin-top: 10px;
+    font-size: 15px;
+    border: none;
+    background: red;
+    color: white;
+    border-radius: 7px;
 }
